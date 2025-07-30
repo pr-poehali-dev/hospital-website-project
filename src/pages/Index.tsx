@@ -229,7 +229,7 @@ const Index = () => {
               Чтобы записаться на исследования обращайтесь в
             </p>
             <p className="text-xl font-semibold text-medical-blue mb-6">
-              Поликлинику №2 по адресу ул. Братьев Быковых 16
+              Поликлинику №2 по адресу г. Екатеринбург, ул. Братьев Быковых 16
             </p>
             <div className="flex justify-center space-x-8 mb-6">
               <div className="text-center">
