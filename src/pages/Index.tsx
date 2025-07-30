@@ -80,11 +80,11 @@ const Index = () => {
                 <p className="text-sm text-gray-600">Кабинет 215</p>
               </div>
               <div className="text-center animate-pulse-medical">
-                <Icon name="Stethoscope" size={48} className="mx-auto mb-2 text-medical-blue" />
+                <Icon name="Heart" size={48} className="mx-auto mb-2 text-medical-blue" />
                 <p className="text-sm text-gray-600">Кабинет 221</p>
               </div>
               <div className="text-center animate-pulse-medical">
-                <Icon name="Activity" size={48} className="mx-auto mb-2 text-medical-blue" />
+                <Icon name="Heart" size={48} className="mx-auto mb-2 text-medical-blue" />
                 <p className="text-sm text-gray-600">Кабинет 227</p>
               </div>
             </div>
@@ -233,15 +233,15 @@ const Index = () => {
             </p>
             <div className="flex justify-center space-x-8 mb-6">
               <div className="text-center">
-                <Icon name="Calendar" size={24} className="mx-auto mb-2 text-medical-blue" />
+                <Icon name="Heart" size={24} className="mx-auto mb-2 text-medical-blue" />
                 <p className="text-sm text-gray-600">Кабинет 215</p>
               </div>
               <div className="text-center">
-                <Icon name="Clock" size={24} className="mx-auto mb-2 text-medical-blue" />
+                <Icon name="Heart" size={24} className="mx-auto mb-2 text-medical-blue" />
                 <p className="text-sm text-gray-600">Кабинет 221</p>
               </div>
               <div className="text-center">
-                <Icon name="Users" size={24} className="mx-auto mb-2 text-medical-blue" />
+                <Icon name="Heart" size={24} className="mx-auto mb-2 text-medical-blue" />
                 <p className="text-sm text-gray-600">Кабинет 227</p>
               </div>
             </div>
