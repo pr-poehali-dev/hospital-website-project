@@ -73,6 +73,14 @@ const Index = () => {
     <div className="min-h-screen bg-gradient-to-br from-medical-white via-medical-gray to-medical-lightBlue">
       {/* Hero Section */}
       <section className="relative py-20 px-4 text-center">
+        {/* Hospital Logo */}
+        <div className="absolute top-4 right-4 z-10">
+          <img 
+            src="https://cdn.poehali.dev/files/f556b7a2-c4ab-4ab8-b036-9daf9630c8b2.jpg" 
+            alt="Центральная Городская Больница №3 Екатеринбург"
+            className="h-16 md:h-20 w-auto opacity-90 hover:opacity-100 transition-opacity"
+          />
+        </div>
         <div className="container mx-auto max-w-4xl">
           <div className="animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-bold text-medical-blue mb-6">
