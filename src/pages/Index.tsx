@@ -44,7 +44,9 @@ const Index = () => {
     { name: "Маммография с описанием", price: 1700 },
     { name: "Простатспецифический антиген", price: 500 },
     { name: "ВИЧ", price: 1500 },
-    { name: "Мазок на онкоцитологию", price: 1780 }
+    { name: "Мазок на онкоцитологию", price: 1780 },
+    { name: "Флюорография", price: 1000 },
+    { name: "Консультация специалистов", price: 4000 }
   ];
 
   const diseases = [
@@ -182,7 +184,7 @@ const Index = () => {
               </h3>
               <div className="text-center py-12">
                 <div className="text-4xl font-bold text-green-600 mb-4">
-                  6 805 ₽
+                  11 805 ₽
                 </div>
                 <p className="text-lg text-green-800 font-semibold">
                   Вы экономите!
