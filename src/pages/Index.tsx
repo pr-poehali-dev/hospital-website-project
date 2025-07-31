@@ -31,6 +31,12 @@ const Index = () => {
       items: [
         "Исследование гинекологического мазка на микрофлору и онкоцитологию"
       ]
+    },
+    {
+      title: "Для всех мужчин",
+      items: [
+        "Консультация экспертов в рамках репродуктивного здоровья (хирург/уролог)"
+      ]
     }
   ];
 
@@ -219,27 +225,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Important Info Section */}
-      <section className="py-16 px-4 bg-gray-50">
-        <div className="container mx-auto max-w-4xl">
-          <h2 className="text-3xl font-bold text-center text-medical-blue mb-8 animate-fade-in">
-            Что важно знать?
-          </h2>
-          <Card className="p-8 shadow-lg animate-fade-in">
-            <div className="flex items-start space-x-4">
-              <Icon name="Users" size={32} className="text-medical-blue flex-shrink-0 mt-1" />
-              <div>
-                <h3 className="text-xl font-semibold text-medical-blue mb-3">
-                  Для всех мужчин: консультация экспертов в рамках репродуктивного здоровья (хирург/уролог)
-                </h3>
-                <p className="text-gray-700">
-                  Специализированная консультация поможет выявить и предотвратить заболевания мужской репродуктивной системы на ранней стадии.
-                </p>
-              </div>
-            </div>
-          </Card>
-        </div>
-      </section>
+
 
       {/* Contact Section */}
       <section className="py-16 px-4 bg-gradient-to-r from-medical-blue to-blue-700">
